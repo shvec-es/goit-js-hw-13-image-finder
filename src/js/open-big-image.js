@@ -8,6 +8,7 @@ function openBigImage(e) {
     if (!e.target.classList.contains('photo-card-img')) {
         return;
     }
+    
     const largeImgUrl = e.target.dataset.source;
 
     modalDiv.classList.add('is-open');
