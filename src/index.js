@@ -31,6 +31,7 @@ async function renderGalleryMarkup(e) {
             loadMoreBtn.classList.remove('is-hidden');
             formEl.reset();
         } else {
+            loadMoreBtn.classList.add('is-hidden');
             error({
                 text: "Invalid request! Try another word.",
                 delay: 1000,
